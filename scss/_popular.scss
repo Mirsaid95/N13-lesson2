@@ -1,0 +1,149 @@
+.popular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    gap: 20px;
+    
+
+    &__boxs{
+        width: 100%;
+        display: flex;
+        gap: 20px;
+    }
+    &__title{
+        font-size: 32px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    &__list{
+        text-align: center;
+        font-size: 16px;
+        width: 40%;
+
+    }
+
+    &__cards{
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+        
+    }
+
+    &__card{
+        width: 355px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        padding: 0px 10px;
+        justify-content: space-between;
+        background-color: whitesmoke;
+    }
+    &__text{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .red{
+        color: red;
+    }
+    .r{color: red;}
+
+    &__image{
+        width: 100%;
+        position: relative;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    &__text-btn{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        position: absolute;
+        top: 120px;
+        left: 40px;
+    }
+
+    &__juic{
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 40px;
+        color: white;
+    }
+
+    &__fruits{
+        font-size: 58px;
+        font-weight: 900;
+        color: #F7E8AA;
+    }
+
+    &__natural{
+        font-size: 20px;
+        font-weight: 500;
+        color: white;
+    }
+
+    &__btn{
+        width: 100px;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        font-size: 16px;
+        color: white;
+        background-color: crimson;
+        cursor: pointer;
+    }
+
+    &__items{
+        width: 75%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        
+    }
+
+    &__item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.158);
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    &__price{
+        display: flex;
+        gap: 10px;
+        color: red;
+        font-size: 16px;
+        font-weight: 900;
+    }
+    &__sale{
+        font-weight: 400;
+        text-decoration: line-through;
+    }
+
+    &__item-img{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    &__item-info{
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+    }
+    
+
+
+
+
+}
